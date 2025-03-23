@@ -1,0 +1,6 @@
+baseurl: ""
+sass:
+  style: compressed
+
+markdown: kramdown
+permalink: pretty

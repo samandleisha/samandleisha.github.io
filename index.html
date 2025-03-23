@@ -1,0 +1,31 @@
+---
+title: Leisha & Sam
+layout: default
+---
+
+<hr/>
+<section>
+	<h2 id="ourstory">Our Story</h2>
+	<p>Sam and Leisha met in 2016 in Indianapolis at the Sun King CANvitational. After exchanging numbers, their love story continued to unfold over the next almost 10 years. They are ready to tie the knot and can't wait to celebrate with their loved ones and closest friends.</p>
+	<p>We want to thank each and every one of you for being a part of our lives, our story, and some of our best memories. We hope to see you there to celebrate, eat, drink, and dance!</p>
+</section>
+<hr/>
+<section>
+	<h2 id="people">Wedding Party</h2>
+	{% for it in site.data.people %}
+	<img src="{{site.baseurl}}/assets/img/people/{{ it.pic }}"/>
+	<dt><h3 >{{ it.name }}</h3></dt>
+	<dd>{{ it.role }}</dd>
+	<dd>{{ it.description }}</dd>
+	{% endfor %}
+</section>
+<hr/>
+<section class="container content-section">
+	<h2 id="faq">FAQ</h2>
+	<dl>
+		{% for it in site.data.faq %}
+			<dt><h3 class="faq-question">{{ it.question }}</h3></dt>
+			<dd><p class="faq-answer">{{ it.answer }}</p></dd>
+		{% endfor %}
+	</dl>
+</section>
