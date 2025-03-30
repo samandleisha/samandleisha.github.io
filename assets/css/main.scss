@@ -11,7 +11,6 @@ $maroon: #4C0E1E;
 
 nav {
   background-color: $orange;
-  font-size: 1rem;
   ul {
     margin: 0;
     padding: .5rem 0;
@@ -43,7 +42,7 @@ html {
 
 @media screen and (max-width: 1000px) {
   html {
-    font-size: 45px;
+    font-size: 40px;
   }
   main {
     padding: 0 1rem;
