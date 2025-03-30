@@ -11,10 +11,10 @@ $maroon: #4C0E1E;
 
 nav {
   background-color: $orange;
-  font-size: 1.5em;
+  font-size: 1rem;
   ul {
     margin: 0;
-    padding: .5em 0;
+    padding: .5rem 0;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -34,20 +34,23 @@ body {
   font-family: "Playfair", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 20px;
   margin: 0;
 }
 
-main {
-  padding: 0 2em;
-  max-width: 1000px;
-  margin: 0 auto;
+html {
+  font-size: 20px;
 }
 
-h1 {
-  text-transform: lowercase;
-  font-size: 10em;
-  line-height: 0.7;
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 30px;
+  }
+}
+
+main {
+  padding: 0 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 header {
@@ -63,13 +66,19 @@ header {
   width: 100%;
 
   * {
-    max-width: 50%;
     text-align: center;
   }
+
+  h1 {
+    text-transform: lowercase;
+    font-size: 10rem;
+    line-height: 0.7;
+  }
+
 }
 
 h2 {
-  font-size: 5em;
+  font-size: 5rem;
   text-align: center;
 }
 
@@ -80,14 +89,14 @@ h2 {
       margin: 0
     }
     dt:not(:first-child) {
-      margin-top: 2em;
+      margin-top: 2rem;
     }
     dt {
-      margin-bottom: 0.5em;
-      font-size: 3em;
+      margin-bottom: 0.5rem;
+      font-size: 3rem;
     }
     .role {
-      font-size: 2em;
+      font-size: 2rem;
     }
     img {
       width: 50%;
