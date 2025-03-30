@@ -1,16 +1,12 @@
-- name: Our Story
-  link: /index.html/#ourstory
-- name: People
-  link: /index.html/#people
+- name: Wedding Party
+  link: /#people
 - name: Details
-  link: /index.html/#details
+  link: /#details
 - name: FAQ
-  link: /index.html/#faq
-- name: City Guide
-  link: /index.html/#guide
+  link: /#faq
 - name: Registry
-  link: /index.html/#registry
+  link: /#registry
 - name: Photos
   link: /photos
 - name: RSVP
-  link: /index.html/#rsvp
+  link: /#rsvp
