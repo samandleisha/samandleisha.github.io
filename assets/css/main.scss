@@ -2,16 +2,97 @@
 ---
 ;
 
+$fg: #041510;
+$bg: #F6F2E7;
 $grey: #DCD6CF;
 $green: #314A41;
 $orange: #BF7D2D;
 $maroon: #4C0E1E;
 
+nav {
+  background-color: $orange;
+  font-size: 1.5em;
+  ul {
+    margin: 0;
+    padding: .5em 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  };
+  li a {
+    text-decoration: none;
+    color: $maroon;
+  }
+}
+
 body {
-  background-color: $grey;
-  color: $orange;
+  line-height: 1.2;
+  background-color: $bg;
+  color: $fg;
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+  margin: 0;
+}
+
+main {
+  padding: 0 2em;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 h1 {
-  color: $green
+  text-transform: lowercase;
+  font-size: 10em;
+  line-height: 0.7;
+}
+
+header {
+  background: url(../img/hero.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+
+  * {
+    max-width: 50%;
+    text-align: center;
+  }
+}
+
+h2 {
+  font-size: 5em;
+  text-align: center;
+}
+
+#people {
+  dl {
+    text-align: center;
+    * {
+      margin: 0
+    }
+    dt:not(:first-child) {
+      margin-top: 2em;
+    }
+    dt {
+      margin-bottom: 0.5em;
+      font-size: 3em;
+    }
+    .role {
+      font-size: 2em;
+    }
+    img {
+      width: 50%;
+      max-width: 400px;
+      border-radius: 50%;
+    }
+  }
 }

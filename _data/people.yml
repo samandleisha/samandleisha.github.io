@@ -1,23 +1,31 @@
 - name: Carissa Towle
-  pic: carissa.jpg
+  pic: carissa.png
   role: Maid of Honor
-  description: Sister and Maid of Honor, Carissa and Leisha have spent their lives not only as sisters, but best friends.
+  description: |
+    Sister and Maid of Honor, Carissa has been by Leisha’s side from the very beginning. Through good times, hard times, and times they would both prefer to forget, Carissa has always been more than a sister. Leisha is honored to have her stand beside her to witness this next great milestone just as she has been for every other big moment.
+
 - name: Leia Hunt
-  pic: leia.jpg
+  pic: leia.png
   role: Bridesmaid
-  description: Big sister and 'cool mom' Leia has always been there for Leisha to support, listen, and help cover up her misdeeds. The mother to two beautiful boys, teacher, and friend to all, Leisha is proud to have her not only as a sister, but friend and confidant.
+  description: |
+    Big sister and ‘cool mom’ Leia has always been there for Leisha to support, listen, and help cover up her misdeeds. The mother of two beautiful boys, teacher, and friend to all, Leisha is proud to have her not only as a sister, but friend and confidant. 
+
 - name: Alex Antonetti
-  pic: alex.jpg
+  pic: alex.png
   role: Bridesmaid
-  description: After meeting while working at Trader Joe's, Alex and Leisha have formed a strong friendship over the years. Fun, fearless, and always up for a good time, Alex is the friend Leisha has been hoping to find all her adult life and is thrilled to have her stand beside her as she takes the next steps in life.
+  description: |
+    After meeting while working at Trader Joe’s, Alex and Leisha have formed a strong friendship over the years. Fun, fearless, and always up for a good time, Alex is the friend Leisha has hoped to find all her adult life and is thrilled to have her stand beside her as she takes the next steps in life. 
+
 - name: Andrew Oakley
   pic: andrew.jpg
   role: Groomsman
   description: He guy
+
 - name: Andy Markowitz
   pic: andy.jpg
   role: Groomsman
   description: Also guy
+
 - name: Anna Varga-Peoni
   pic: anna.jpg
   role: Groomsmaid
