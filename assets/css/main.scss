@@ -9,6 +9,11 @@ $green: #314A41;
 $orange: #BF7D2D;
 $maroon: #4C0E1E;
 
+a {
+  text-decoration: none;
+  color: $orange;
+}
+
 nav {
   background-color: $orange;
   ul {
@@ -21,7 +26,6 @@ nav {
     justify-content: space-evenly;
   };
   li a {
-    text-decoration: none;
     color: $maroon;
   }
 }
@@ -107,4 +111,15 @@ h2 {
       border-radius: 50%;
     }
   }
+}
+
+button, .button {
+  // border: 1px solid $fg;
+  border-radius: 5rem;
+  padding: 0.7rem 3rem;
+  margin: 1rem;
+  background-color: $green;
+  color: $bg !important;
+  font: inherit;
+  cursor: pointer;
 }

@@ -16,17 +16,17 @@
   description: |
     After meeting while working at Trader Joe’s, Alex and Leisha have formed a strong friendship over the years. Fun, fearless, and always up for a good time, Alex is the friend Leisha has hoped to find all her adult life and is thrilled to have her stand beside her as she takes the next steps in life. 
 
-- name: Andrew Oakley
-  pic: andrew.jpg
-  role: Groomsman
-  description: He guy
-
-- name: Andy Markowitz
-  pic: andy.jpg
-  role: Groomsman
-  description: Also guy
-
-- name: Anna Varga-Peoni
-  pic: anna.jpg
-  role: Groomsmaid
-  description: Sam sister
+# - name: Andrew Oakley
+#   pic: andrew.jpg
+#   role: Groomsman
+#   description: He guy
+#
+# - name: Andy Markowitz
+#   pic: andy.jpg
+#   role: Groomsman
+#   description: Also guy
+#
+# - name: Anna Varga-Peoni
+#   pic: anna.jpg
+#   role: Groomsmaid
+#   description: Sam sister
